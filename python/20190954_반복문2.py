@@ -29,9 +29,41 @@ while(True):
 print("입력한 정수의 합 : ", sum)
 """
 
+"""
 id = "znantothelimit" # 가입 시 입력한 id
 id_input = input("id 입력 : ")
 if(id == id_input):
     print("login succeses")
 else:
     print("login failed")
+"""
+
+"""
+id = "znantothelimit" # 가입 시 입력한 id
+id_input = input("id 입력 : ")
+if(id == id_input):
+    print("login succeses")
+else:
+    print("login failed")
+    while(True):
+        id_input = input("다시 id 입력 : ")
+        if(id == id_input):
+            print("login succeses")
+            break
+"""
+            
+# for문 이용하여 로그인 횟수 5번 제한
+id = "znantothelimit" # 가입 시 입력한 id
+id_input = input("id 입력 : ")
+if(id == id_input):
+    print("login succeses")
+else:
+    print("login failed")
+    for i in range(2, 6):
+        id_input = input("다시 id 입력 : ")
+        if(id == id_input):
+            print("login succeses")
+            break
+        else:
+            print("틀린 횟수(5회 틀릴 시 종료) : ", i)
+            continue
