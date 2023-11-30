@@ -107,9 +107,17 @@ for i in score:
     else:
         print(n, "번 학생은 불합격입니다.", i)
 """
-        
+
+"""        
 # 2-9 구구단 출력
 for i in range(2, 10):
+    print("-----", i, "단", "-----")
     for j in range(1, 10):
         print(i, "*", j, "=", i*j)
-    print("-------------------")
+    print("")
+"""
+
+# 입력받은 n단 구구단만 출력
+i = int(input("몇 단을 출력할지 입력 : "))
+for j in range(1, 10):
+    print(i, "*", j, "=", i*j)
