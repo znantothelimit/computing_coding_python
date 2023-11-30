@@ -78,6 +78,7 @@ else:
     print(a, "는 리스트에 없습니다.")
 """
 
+"""
 import random
 choice = random.randint(1, 6)
 a = input("엔터키를 눌러 주사위를 던집니다")
@@ -93,3 +94,14 @@ elif(choice == 5):
     print("주사위 수 ", choice)
 else:
     print("주사위 수 ", choice)
+"""
+
+score = [87, 86, 50, 80, 99]
+n = 0
+for i in score:
+    n+=1
+    if(i>=70):
+        print(n, "번 학생은 합격입니다.", i)
+    else:
+        print(n, "번 학생은 불합격입니다.", i)
+        
