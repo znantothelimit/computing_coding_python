@@ -1,5 +1,4 @@
 # 20190954 허진환 231130 lecture
-
 """
 # continue문 이용하여 짝수 출력
 print("for문 이용(range 1, 11)")
@@ -69,10 +68,28 @@ else:
             print("틀린 횟수(5회 틀릴 시 종료) : ", i)
             continue
 """
-            
+
+"""            
 fruit = ["복숭아", "귤", "사과", "수박", "포도"]
 a = input("과일 입력 : ")
 if(a in fruit):
     print(a, "는 리스트에 있습니다.")
 else:
     print(a, "는 리스트에 없습니다.")
+"""
+
+import random
+choice = random.randint(1, 6)
+a = input("엔터키를 눌러 주사위를 던집니다")
+if(choice==1):
+    print("주사위 수 ", choice)
+elif(choice == 2):
+    print("주사위 수 ", choice)
+elif(choice == 3):
+    print("주사위 수 ", choice)
+elif(choice == 4):
+    print("주사위 수 ", choice)
+elif(choice == 5):
+    print("주사위 수 ", choice)
+else:
+    print("주사위 수 ", choice)
