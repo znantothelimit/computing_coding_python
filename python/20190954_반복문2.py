@@ -17,6 +17,7 @@ while(i<=10):
     print(i, " 는 짝수입니다.")
 """
 
+"""
 # break 활용하여 0 입력 시까지 입력된 정수의 합 출력
 num = int(input("정수 입력 : "))
 sum = 0
@@ -26,3 +27,11 @@ while(True):
         break
     num = int(input("다시 정수 입력(0 입력시 종료) : "))
 print("입력한 정수의 합 : ", sum)
+"""
+
+id = "znantothelimit" # 가입 시 입력한 id
+id_input = input("id 입력 : ")
+if(id == id_input):
+    print("login succeses")
+else:
+    print("login failed")
