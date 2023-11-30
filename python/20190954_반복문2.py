@@ -1,4 +1,5 @@
-# 20190954 허진환 231130 lecture
+# 20190954 허진환 231130 lecture 반복문2
+
 """
 # continue문 이용하여 짝수 출력
 print("for문 이용(range 1, 11)")
@@ -109,7 +110,7 @@ for i in score:
 """
 
 """        
-# 2-9 구구단 출력
+# 2-9단 모든 구구단 출력
 for i in range(2, 10):
     print("-----", i, "단", "-----")
     for j in range(1, 10):
