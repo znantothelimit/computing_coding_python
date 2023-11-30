@@ -96,6 +96,8 @@ else:
     print("주사위 수 ", choice)
 """
 
+"""
+# 리스트 학생별 점수 합격여부 출력
 score = [87, 86, 50, 80, 99]
 n = 0
 for i in score:
@@ -104,4 +106,10 @@ for i in score:
         print(n, "번 학생은 합격입니다.", i)
     else:
         print(n, "번 학생은 불합격입니다.", i)
+"""
         
+# 2-9 구구단 출력
+for i in range(2, 10):
+    for j in range(1, 10):
+        print(i, "*", j, "=", i*j)
+    print("-------------------")
