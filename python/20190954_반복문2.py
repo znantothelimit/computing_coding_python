@@ -51,7 +51,8 @@ else:
             print("login succeses")
             break
 """
-            
+
+"""
 # for문 이용하여 로그인 횟수 5번 제한
 id = "znantothelimit" # 가입 시 입력한 id
 id_input = input("id 입력 : ")
@@ -67,3 +68,11 @@ else:
         else:
             print("틀린 횟수(5회 틀릴 시 종료) : ", i)
             continue
+"""
+            
+fruit = ["복숭아", "귤", "사과", "수박", "포도"]
+a = input("과일 입력 : ")
+if(a in fruit):
+    print(a, "는 리스트에 있습니다.")
+else:
+    print(a, "는 리스트에 없습니다.")
