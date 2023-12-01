@@ -7,18 +7,18 @@ t = turtle.Turtle()
 t.shape("turtle")
 t.left(90)  # 초기 방향을 위쪽으로 설정
 
-### 6회 반복 -> 각 반복마다 left 60degree rotate ###
+### 6회 반복 -> 각 반복마다 left 60 degree rotate ###
 for i in range(0, 6):
     # 초기 130 길이 전진 후 좌우 가지 그리기위해 30 길이 후진
     t.forward(130) 
     t.forward(-30)
 
-    # 좌측 가지 그리기 위해 left 60degree rotate 후 30길이 전/후진 
+    # 좌측 가지 그리기 위해 left 60 degree rotate 후 30길이 전/후진 
     t.left(60) 
     t.forward(30) 
     t.forward(-30)
 
-    # 우측 가지 그리기 위해 right 120degre rotate 후 30길이 전/후진 
+    # 우측 가지 그리기 위해 right 120 degree rotate 후 30길이 전/후진 
     t.right(120)
     t.forward(30)
     t.forward(-30)
