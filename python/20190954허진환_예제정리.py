@@ -122,7 +122,7 @@ while(1):
         print("R, G 중에 입력하시오")
 '''
 
-# 1~10 사이 난수 발생하여 덧셈 문제 맞춰보시오
+# 6. 1~10 사이 난수 발생하여 덧셈 문제 맞춰보시오
 import random
 while(1):
     a = random.randint(1, 10)
